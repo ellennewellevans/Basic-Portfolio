@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/pow-star.png);
+}
+
+.contenttitle {
+    color:#4aaa;
+    font-size: 300%;
+}
+
+footer {
+    background-color: #666666;
+    margin-top: 50px;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.footertext{
+    color: #ffffff;
+    text-align: center;
+    font-size: 50%;
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+    width: 150px;
+    float: right;
+}
+
+.maincontent {
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.maincontenttext{
+    background-color: #ffffff;
+    width: 960px;
+    align-self: center;
+}
+
+.namebox {
+    background-color: #4aaaa5;
+    width: 200px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-left: 250px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.navlinks {
+
+}
+
+nav {
+    border-color: #cccccc;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #666666;
+    border-style: inset;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.profileimage{
+
+}
