@@ -11,7 +11,6 @@ body {
     color: #777777;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/pow-star.png);
     align-self: center;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     display: inline-block;
 }
 
@@ -20,7 +19,7 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     display: block;
-    width: 200px;
+    float: left;
 }
 
 h2 {
@@ -33,7 +32,6 @@ title {
 }
 
 div {
-    display: inline-block;
     box-sizing: border-box;
     width: 960px;
     align-self: center;
@@ -100,15 +98,34 @@ li a {
 
 nav {
     background-color: #dddddd;
-    line-height: 2;
-
+    line-height: 1.5;
+    overflow: hidden;
+  }
+  
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
   }
 
-  .name{
-      width=20%;
+.name{
+    width=20%;
   }
 
-  form {
+form {
       width: 100%;
   }
       
@@ -121,7 +138,20 @@ input[type=text], select {
         border-radius: 4px;
         box-sizing: border-box;
       }
-  img {
+img {
       width: 35%;
       padding: 5%;
   }
+
+.imagecontainer .info-wrapper {
+    bottom: 0;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    left: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    padding: .5em;
+    right: 57%;
+    top: 0;
