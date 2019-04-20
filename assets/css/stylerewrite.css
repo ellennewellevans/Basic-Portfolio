@@ -3,9 +3,15 @@ body {
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/pow-star.png);
 }
 
+.bottomtext {
+    text-align: left;
+}
+
 .contenttitle {
     color:#4aaa;
     font-size: 300%;
+    padding-left: 75px;
+    padding-right: 50px;
 }
 
 footer {
@@ -25,9 +31,9 @@ footer {
 h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 70%;
-    padding-left: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 50px;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 10px;
     font-weight: bold;
@@ -44,12 +50,17 @@ li a{
     width: 960px;
     background-color: #ffffff;
     margin: 0 auto;
+    padding-bottom: 400px;
 }
 
 .maincontenttext{
     background-color: #ffffff;
     width: 960px;
-    align-self: center;
+    float: right;
+    width: 70%;
+    color: #666666;
+    line-height: 2;
+    padding-right: 70px;
 }
 
 .namebox {
@@ -91,5 +102,6 @@ nav a {
   }
 
 .profileimage{
-
+    padding-left: 70px;
+    padding-right: 50px;
 }
