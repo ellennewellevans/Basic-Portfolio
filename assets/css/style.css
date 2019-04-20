@@ -93,11 +93,11 @@ li {
 li a {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: #ffffff;
   }
 
 nav {
-    background-color: #dddddd;
+    background-color: #ffffff;
     line-height: 1.5;
     overflow: hidden;
   }
