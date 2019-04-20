@@ -22,6 +22,17 @@ footer {
     font-size: 50%;
 }
 
+h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 70%;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
 li a{
     display: block;
     padding: 8px;
@@ -47,16 +58,17 @@ li a{
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-left: 250px;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #ffffff;
     display: block;
     float: left;
     font-size: 24pt;
+    font-weight: bold;
 }
 
 .navlinks {
-
+    
 }
 
 nav {
