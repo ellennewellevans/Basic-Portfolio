@@ -26,7 +26,6 @@ li a{
     display: block;
     padding: 8px;
     background-color: #ffffff;
-    width: 150px;
     float: right;
 }
 
@@ -50,6 +49,10 @@ li a{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font-size: 24pt;
 }
 
 .navlinks {
