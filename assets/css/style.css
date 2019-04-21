@@ -63,6 +63,16 @@ h2{
   font-weight: bold;
 }
 
+img {
+  width:300px;
+  margin: 40px;
+}
+
+.imgmain {
+  width: 200px;
+  margin: 0px;
+}
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
