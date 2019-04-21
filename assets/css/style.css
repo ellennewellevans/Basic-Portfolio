@@ -138,13 +138,14 @@ li a{
   display: inline;
   font-size: 150%;
   font-stretch: expanded;
+  margin-bottom: 100px;
 }
 
 .namebox {
   background-color: #4aaaa5;
   width: 200px;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  margin-left: 185px;
+  margin-left: 480px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
