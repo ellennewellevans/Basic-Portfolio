@@ -142,7 +142,7 @@ li a{
   background-color: #4aaaa5;
   width: 200px;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  margin-left: 200px;
+  margin-left: 480px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -181,6 +181,11 @@ nav a {
 .profileimage{
   padding-left: 70px;
   padding-right: 50px;
+}
+
+ul {
+  position: relative;
+  left: 300px;
 }
 
 .wrapper {
