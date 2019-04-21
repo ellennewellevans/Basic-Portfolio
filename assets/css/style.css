@@ -18,6 +18,7 @@ button {
   height: 50px;
   width: 200px;
   margin-left: 50px;
+  margin-bottom: 140px;
 }
 
 .contenttitle {
@@ -46,6 +47,7 @@ footer {
 form {
   width: 90%;
   padding-left: 48px;
+  margin-bottom: 50px;
 }
 
 .formlong {
